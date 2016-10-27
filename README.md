@@ -12,6 +12,7 @@ Lines in the input file that start with the symbol `#` should be considered comm
 Example 1:
 
     #family name and # of people
+    bus:  10
     Hunt  4
     Avery 3
     Karev 2
@@ -23,6 +24,7 @@ Example 1:
 Each line that is not a comment will have exactly two items: name, and an integer indicating the number of people in the family.
 Such items will be separated by one tab character (that is, `\t`).
 There may be empty lines in the input file but there will always be at least one line with data.
+There is a special line that will appear before any data of family members: the bus size. For such special line, the first item will be exacty the string `bus:` and the second item will be the size (or capacity of seats) for the bus.
 
 ## Theory
 
@@ -33,15 +35,13 @@ You are encouraged to write your program so that it processes each line of the i
 
 The main program should be called `uhbus` and the syntax in which it will be tested is as follows:
 
-`uhbus "input=FILENAME;size=INTEGER"`
+`uhbus "input=FILENAME"`
 
 The parameter `input` specifies the name of the input file.
 
-The parameter `size` specifies the size number of seats in a bus.
-
 Example of program calls:
 
-`uhbus "input=gray.txt;size=22"`
+`uhbus "input=gray.txt"`
 
 ## Output
 
@@ -89,7 +89,7 @@ Output for the input example when the bus size is set to 9 (maybe they sent a la
 
 ## Requirements
 
-* You must build your own queue (array-based recommended, and in a class). 
+* You must build your own queue (array-based recommended, and in a class). Use queues as you see fit in your program.
 * Place your codes in a folder named: `hw4` (Failure to do so will cause your program to have a zero grade due to inability for doing automated grading).
 * Your program should not produce any unexpected output when it is doing intermediate calculations because doing so will interfere with automated grading and some test cases will fail.
 * When a bus is full to its exact capacity it departs. The action that your program needs to do is output the bus information.
