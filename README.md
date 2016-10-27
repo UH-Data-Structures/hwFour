@@ -77,8 +77,8 @@ Output for the input example when the bus size is set to 9 (maybe they sent a la
     bus1  Karev 
     bus2  Grey 
     bus2  Bailey 
+    bus2  Torres 
     bus3  Burke 
-    bus3  Torres 
     
 ## Assumptions
 
