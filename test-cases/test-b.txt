@@ -1,4 +1,4 @@
-bus:	20
+bus:	10
 Dereniwsky	2
 Garcia	2
 Martinez	2
