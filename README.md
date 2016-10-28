@@ -1,4 +1,4 @@
-# hw4 Bus Queue, due: Friday, Nov. 4th, 11 a.m.
+# hw4 Bus Queue, due: Saturday Nov. 5th at 11:50pm
 
 You will create a C++ program that will simulate the departure of buses when people get into them but they are families that would rather wait for the next bus than having family members going in different buses. 
 The fundamental data structure will be array-based queues.
