@@ -85,7 +85,10 @@ Output for the input example when the bus size is set to 9 (maybe they sent a la
 * The input file can fit in main maimory (not larger than 10kb) and it will always have at least one line of data to work with.
 * Names of people are all letters only and exactly one word (no bigger than 100 characters)
 * The number of people is always a number greater or equal than 2, and smaller than the size of a bus.
+* The minimum number of seats of a bus is 9
+* The maximum number of seats of a bus is 500
 * There will not be repeated names in the input file
+* The maximum number of buses to handle is 100
 
 ## Requirements
 
