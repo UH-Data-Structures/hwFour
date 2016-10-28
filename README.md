@@ -94,4 +94,4 @@ Output for the input example when the bus size is set to 9 (maybe they sent a la
 * Your program should not produce any unexpected output when it is doing intermediate calculations because doing so will interfere with automated grading and some test cases will fail.
 * When a bus is full to its exact capacity it departs. The action that your program needs to do is output the bus information.
 * When a bus is not full to its exact capacity, it has to wait until that is the case, or until no more people need to board (which is the time to output the bus information, in the order of the bus number).
-* When a family decides to wait for the next bus, it is analogous to making a secondary waiting line.
+* When a family decides to take the next bus, they immediately go into such next bus. If that causes the bus to be full, then the bus departs.
