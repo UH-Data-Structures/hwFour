@@ -88,6 +88,7 @@ Output for the input example when the bus size is set to 9 (maybe they sent a la
 * The minimum number of seats of a bus is 9
 * The maximum number of seats of a bus is 500
 * There will not be repeated names in the input file
+* The maximum number of family names is 500
 * The maximum number of buses to handle is 100
 
 ## Requirements
