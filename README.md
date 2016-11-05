@@ -80,6 +80,11 @@ Output for the input example when the bus size is set to 9 (maybe they sent a la
     bus2  Torres 
     bus3  Burke 
     
+
+Every line should have an end of line character, such as output via:
+
+`cout << bus << "\t" << name << endl;`
+
 ## Assumptions
 
 * The input file can fit in main maimory (not larger than 10kb) and it will always have at least one line of data to work with.
